@@ -7,7 +7,6 @@ public class StringSplit {
         String str = "About 197.000.000 results (0,43 seconds) ";
         // arama sonuc sayisinin 1 milyondan cok oldugunu test edin
         String[] kelimeler = str.split(" ");
-        System.out.println("Düzenlenmiş");
         System.out.println(Arrays.toString(kelimeler)); // [About, 197.000.000, results, (0,43, seconds)]
         int sonucSayisi= Integer.parseInt(kelimeler[1].replaceAll("\\D",""));
         System.out.println(sonucSayisi); // 197000000
