@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
-public class Equals {
+public class EqualsArrays {
     public static void main(String[] args) {
         int arr1 [] = {2, 1, 7, 6};
         int arr2 [] = {1, 7, 2, 6};

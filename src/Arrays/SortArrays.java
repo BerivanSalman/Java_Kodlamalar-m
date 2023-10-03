@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
-public class Sort {
+public class SortArrays {
     public static void main(String[] args) {
         int[] arr1 = {3,9,1,0,12,87,4,6};
         System.out.println(Arrays.toString(arr1)); // [3, 9, 1, 0, 12, 87, 4, 6]

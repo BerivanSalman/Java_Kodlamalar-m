@@ -8,11 +8,6 @@ public class ArrayeElemanEklemeMethod {
         //        istenen bir elemani ekleyip bize donduren bir method yazin,
         //        eski array’e yeni degeri atayin.
         int[] arr1 = {4,5,6,7};
-        // bu array'e 5.element olarak 8'i atayin
-        // arr1[4] = 8; calistirinca hata verir. İnsan olarak düşünüp şöyle yapabilirim
-        //nt[] yeniArr = {4,5,6,7,8};
-       // arr1 = yeniArr;
-        //System.out.println("arr1'in son hali : " + Arrays.toString(arr1)); // [4, 5, 6, 7, 8]
         arr1 = arrayeElemanEkle(arr1,10);
         //System.out.println("arr1'in method call'dan sonraki hali : " + Arrays.toString(arr1)); // [4, 5, 6, 7, 8]
         arr1 = arrayeElemanEkle(arr1,12);

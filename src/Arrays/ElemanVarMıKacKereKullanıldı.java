@@ -23,5 +23,4 @@ public class ElemanVarMıKacKereKullanıldı {
             System.out.println("Aranan eleman array'de " + sayac + " kere kullanilmis");
         }
     }
-
 }
