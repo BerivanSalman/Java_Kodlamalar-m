@@ -32,11 +32,14 @@ public class ListedenElemanSilme {
         for (int i = 0; i < isimler.size() ; i++) {
             /*
             if (isimler.get(i).toUpperCase().contains(silinecekHarf.toUpperCase())){
-                isimler.remove(isimler.get(i));
+                isimler.remove(isimler.get(i));//i yi get ile getir silinecek harfi içeriyorsa sil
+
                 i--;
             }
              */
-            if (!isimler.get(i).toUpperCase().contains(silinecekHarf.toUpperCase())){
+            if (!isimler.get(i).toUpperCase().contains(silinecekHarf.toUpperCase()))
+
+            {
                 silinmeyeceklerListesi.add(isimler.get(i));
             }
         }

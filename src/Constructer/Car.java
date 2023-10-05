@@ -6,44 +6,31 @@ public class Car {
     String renk = "Renk atanmamis";
     int yil = 1900;
     int fiyat;
-    public Car(){
-        // renk = "Kirmizi";
-        /*
-            default constructor ile parametresiz constructor'in en buyuk farki
-            default cons.'in body'si bos iken
-            parametresiz cons.'lara kod yazilabilir
-            bu durumda yapilan atamalar tum araclar icin standart olarak uygulanir
-         */
+    Car() {
+        // bir class'da asagidaki gibi gorunur bir constructor olusturdugumuzda
+        // Java default constructor'i siler
+        // Bu durumda proje kapsamindaki baska class'larda
+        // bu class'in default constructor'ini kullanarak olusturulmus olan objeler
+        // CTE verir
+        // Bu durumun onune gecmek icin
+        // bir class'da gorunur bir parametreli constructor olusturuldugunda
+        // DEFAULT constructor yerine de parametresiz ve bos bir cons. olusturulur
     }
-    public Car(String mrk , String mdl ,String rnk){
+    Car(String mrk,String mdl){
+        marka = mrk; //arabanın  markası benim mrk diye yolladıgım olsun
+        model = mdl; // arabanın  modeli benim mdl diye yolladıgım olsun
+    }
+    Car (String mrk, String mdl, int yl, int fyt ) {
         marka = mrk;
         model = mdl;
-        renk = rnk;
-    }
-    Car(String marka, String model , String renk, int fiyat){
-        this.marka = marka;
-        this.model = model;
-        this.renk = renk;
-        this.fiyat = fiyat;
+        yil = yl;
+        fiyat = fyt;
     }
 
-    // tum instance'lar icin parametre alan bir cons. olusturalim
-    public Car(String marka, String model, String renk, int yil, int fiyat) {
-        this.marka = marka;
-        this.model = model;
-        this.renk = renk;
-        this.yil = yil;
-        this.fiyat = fiyat;
-    }
-    // model ve yil parametreleri olsun
-    // biz hep toyota satiyoruz ve renkleri de hep mavi
-    public Car(String model, int yil) {
-        this.model = model;
-        this.yil = yil;
-        marka = "Toyota";
-        renk = "Mavi";
-    }
-    public String toString() { //yukarıdaki 'Code' den Generate'i sevip toStringi sec deriz
+
+
+
+    public String toString() { //yukarıdaki 'Code' den Generate'i secip toStringi sec deriz
         return " Ozellikler ==>" +
                 "marka :'" + marka + '\'' +
                 ", model :'" + model + '\'' +

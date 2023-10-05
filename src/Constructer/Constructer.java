@@ -1,8 +1,10 @@
 package Constructer;
 
 public class Constructer {
+
     // default constructor ile ayni islevi yapan
     // gorunur bir constructor olusturalim
+
     public Constructer(){
         System.out.println("Merhaba, ben constructor");
     }

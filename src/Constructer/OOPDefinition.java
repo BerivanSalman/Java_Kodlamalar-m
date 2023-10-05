@@ -11,11 +11,14 @@ public class OOPDefinition {
             obje olusturulmasina izin vermek icin
             class'lara default constructor koyar.
             DEFAULT CONSTRUCTOR GORUNMEZ
-            Eger bir class'da GORUNEN bir constructor YOKSA
-            o class'da defeult constructor vardir.
+            Eger bir class'da GORUNEN (ismi class ismiyle aynı olmalı ve yanında method gibi bir parantez olmalı() ve body si olmalı
+            (Giris();) bunun gibi
+             bir constructor YOKSA
+            o class'da default constructor vardir.
             Default constructor
             - Parametresizdir
-            - Constructor body'sinde hicbir kod bulunmaz
+            - Constructor body'sinde hicbir kod bulunmaz.
+            -Donus tipi yoktur
          Biz bir class'da gorunur bir constructor olusturdugumuzda
          Java Default COnstructor'i iptal eder
          Bir kod blogunun constructor olmasi icin

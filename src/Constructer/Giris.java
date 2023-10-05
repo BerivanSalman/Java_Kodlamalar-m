@@ -1,7 +1,7 @@
 package Constructer;
 import java.util.Random;
 public class Giris {
-    //Bir class dan obje olusturdugumuzda o objeyi kullanarak o classdaki herseye ulasabiliyoruz
+
     int sayi = 6;
     String str = "Java candir";
     public void rastgeleSayiUret(){

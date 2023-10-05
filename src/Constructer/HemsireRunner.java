@@ -2,13 +2,15 @@ package Constructer;
 
 public class HemsireRunner {
     public static void main(String[] args) {
-        Hemsire hemsire1 = new Hemsire(); //hemsire classından obje olusturduk
+        //Hangi classdaki bilgileri kullanmak istiyorsak o classın ismini yazıp obje olusturmalıyız aşağıdaki gibi;
+        Hemsire hemsire1 = new Hemsire(); // () constructer ı görür ve Hemşire classına gidip orda var
+        // olan instancelerin bir kopyasını objeye yapıstırır . Deger ataması yapılmayanlara null degeri atar
         hemsire1.hemsireAdi = "Esra";
         hemsire1.hemsireAdresi = "Yenimahalle";
         Hemsire hemsire2 = new Hemsire();
         System.out.println(hemsire2.hemsireTel); // null
         new Hemsire();//constructer oldugu icin obje olusturur fakat hic bir variableye atanmamıs yazdırılmamıs da.
-        //Ya hemen asagıdaki gibi hemen kullanırız ya da bu olusturulan constructer cope gider
+        //Ya hemen asagıdaki gibi hemen kullanırız ya da bu olusturulan constructer cope gider.
         System.out.println((new Hemsire().hemsireAdresi)); // null
         // son olusturdugumuz objeyi
         // atama yapmadigimiz icin bir daha kullanamayiz
