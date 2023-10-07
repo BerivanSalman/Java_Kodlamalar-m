@@ -16,6 +16,12 @@ public class CarRunner {
         System.out.println("Car2"+car2);
         // Car2 Ozellikler ==>marka :'Nissan', model :'Micra', renk :'Mavi', yil :1900, fiyat :0
 
+        // marka,model,renk ve fiyat parametreleri olan
+        // bir constructor olusturun
+        Car car4 = new Car("Peugeot","206","Turuncu",5000);
+        System.out.println("Car4"+car4);
+        // Car4 Ozellikler ==>marka :'Peugeot', model :'206', renk :'Turuncu', yil :1900, fiyat :5000
+
 
     }
 }

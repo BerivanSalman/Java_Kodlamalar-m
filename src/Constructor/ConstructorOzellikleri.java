@@ -1,14 +1,19 @@
 package Constructer;
 
 public class ConstructerOzellikleri {
+    //Methodlara benzerler ama return typeları yoktur
+    //İsimleri mutlaka class ismi ile aynı olmalıdır. Ve buyuk
+    // harfle baslar
+    //Static olarak tanımlanamazlar
+    //Method overloadingde oldugu gibi signaturesi farklı olmak
+    // sartıyla bir sürü constructerlar olusturulabilir
     //Bir constructer calısmadan bir obje olusturulup
     // ilk deger ataması yapılamaz.
     //Aynı classı kullanarak farklı constructerlarla ilk olusturulma ozellikleri farklı olan objeler uretebiliriz
     //Eger objemizin standart ürünlerden olusmasını istemiyorsak
     //parametreli constructerlar kullanırız
 
-    //Method overloadingde oldugu gibi signaturesi farklı olmak
-    // sartıyla bir sürü constructerlar olusturulabilir
+
 
     //Bana triko üret. Hicbir özellik belirtilmemiş, standart ürün yollarız
     //YildizTriko(); // parametresiz
