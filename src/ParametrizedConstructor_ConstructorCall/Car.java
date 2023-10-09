@@ -1,4 +1,4 @@
-package ParametrizedConstructer_ConstructerCall;
+package ParametrizedConstructor_ConstructorCall;
 
 public class Car {
     String marka = "Marka atanmamis";

@@ -1,6 +1,6 @@
-package Constructer;
+package Constructor;
 
-public class ConstructerOzellikleri {
+public class ConstructorOzellikleri {
     //Methodlara benzerler ama return typeları yoktur
     //İsimleri mutlaka class ismi ile aynı olmalıdır. Ve buyuk
     // harfle baslar

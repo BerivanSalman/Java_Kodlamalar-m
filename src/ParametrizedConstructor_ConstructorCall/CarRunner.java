@@ -1,4 +1,4 @@
-package ParametrizedConstructer_ConstructerCall;
+package ParametrizedConstructor_ConstructorCall;
 
 public class CarRunner {
     public static void main(String[] args) {

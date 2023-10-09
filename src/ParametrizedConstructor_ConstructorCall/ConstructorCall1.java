@@ -1,22 +1,22 @@
 package ParametrizedConstructor_ConstructorCall;
 
-public class ConstructorCall { //bir constructor icinde iki tane constructor call yapamazsın
+public class ConstructorCall1 { //bir constructor icinde iki tane constructor call yapamazsın
 
-    ConstructorCall(){
+    ConstructorCall1(){
 
         System.out.println("Parametresiz constructor calisti");
     }
-    ConstructorCall(int sayi){
+    ConstructorCall1(int sayi){
         System.out.println("int parametreli constructor calisti");
     }
-    ConstructorCall(String metin){
+    ConstructorCall1(String metin){
         //ConstructorCall(); // Method Call Syntax'i oldugundan Java bu isimde method arar
         this(6); // constructor call syntax'i boyledir
         // constructor adini degil this(istenen parametreler) yazariz
         System.out.println("String parametreli constructor calisti");
     }
     public static void main(String[] args) {
-        ConstructorCall obj1 = new ConstructorCall("A");
+        ConstructorCall1 obj1 = new ConstructorCall1("A");
     }
     //Once main methodunun ici calısır. Metin A'yı alır ve icinde String parametresi veren 12. satırdaki constructora gider.
     //Icıne girmeden once objeyi olusturur. Ama instance olmadıgı icin icine birsey koyamaz. 14. satıra gelir ve this(6) yı gorur

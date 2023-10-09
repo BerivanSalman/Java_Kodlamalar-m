@@ -1,4 +1,4 @@
-package Constructer;
+package Constructor;
 
 public class Car {
     String marka = "Marka atanmamis";

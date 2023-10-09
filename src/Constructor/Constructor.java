@@ -1,11 +1,11 @@
-package Constructer;
+package Constructor;
 
-public class Constructer {
+public class Constructor {
 
     // default constructor ile ayni islevi yapan
     // gorunur bir constructor olusturalim
 
-    public Constructer(){
+    public Constructor(){
         System.out.println("Merhaba, ben constructor");
     }
     // bu constructor gorunur oldugu icin
