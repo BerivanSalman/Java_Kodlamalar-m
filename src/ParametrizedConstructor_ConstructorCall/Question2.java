@@ -1,4 +1,4 @@
-package ParametrizedConstructer_ConstructerCall;
+package ParametrizedConstructor_ConstructorCall;
 
 public class Question2 {
     String isim = "John Doe";

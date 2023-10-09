@@ -1,4 +1,4 @@
-package Constructer;
+package Constructor;
 
 public class Hemsire {
     //Burayi runnder classının istediği zaman kullanabilecegi bir depo gibi düşün

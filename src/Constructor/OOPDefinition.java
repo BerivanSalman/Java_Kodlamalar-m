@@ -1,8 +1,8 @@
-package Constructer;
+package Constructor;
 
 public class OOPDefinition {
     public static void main(String[] args) {
-        Constructer obj = new Constructer();
+        Constructor obj = new Constructor();
         /*
             Java OOP konsepti kullanir
             OOP konsept class'lardan objeler olusturup

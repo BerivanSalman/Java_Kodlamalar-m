@@ -1,4 +1,4 @@
-package Constructer;
+package Constructor;
 import java.util.Random;
 public class Giris {
 

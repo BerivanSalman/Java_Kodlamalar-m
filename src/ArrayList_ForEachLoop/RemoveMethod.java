@@ -3,6 +3,11 @@ import java.util.ArrayList;
 import java.util.List;
 public class RemoveMethod {
     public static void main(String[] args) {
+        // Eger List sayilardan olusuyorsa
+        // remove(2) yazdigimizda 2'nin element mi yoksa index mi olacagini netlestirmek gerekir
+        // Java bu durumu netlestirmek icin
+        // sayilardan olusan list'lerde yazilan sayiyi INDEX olarak kabul eder
+        // list.remove(9) bu 9. indexteki elemanı sil demektir
         List<String> isimler = new ArrayList<>();
         isimler.add("Deniz");
         isimler.add("Omer");
