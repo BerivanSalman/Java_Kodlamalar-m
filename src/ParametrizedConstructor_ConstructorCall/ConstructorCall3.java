@@ -15,6 +15,10 @@ public class ConstructorCall3 {
         ConstructorCall3 obj1 = new ConstructorCall3();
         ConstructorCall3 obj2 = new ConstructorCall3( "Fatih", 35);
         System.out.println("İsim: " +obj1.isim + " Yas: " + obj2.yas); //İsim: Seher Yas: 35
+        
+        int dc = 5;
+        dc= 8;
+        dc = 9;
 
     }
 }

@@ -27,9 +27,6 @@ public class Car {
         fiyat = fyt;
     }
 
-
-
-
     public String toString() { //yukarıdaki 'Code' den Generate'i secip toStringi sec deriz
         return " Ozellikler ==>" +
                 "marka :'" + marka + '\'' +
