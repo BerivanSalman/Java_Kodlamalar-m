@@ -26,6 +26,8 @@ public class VarargsDikkatEdilecekler {
         EN SON parametre olarak yazilmalidir
         Bu sebeple bir method'da
         2 varargs parametre de KULLANILAMAZ
+        //public static void moreA(int... nums, String values) ==> varargs son parametre olmalıdır
+        //public static void moreA(String ... values, int... nums,) ==> varargs son parametre olmalıdır. Burda 1. de varargs o yüzden olmaz
      */
     public static void islem1(int ilkSayi, int... geriyeKalanlar){
         int toplam = 0;

@@ -2,7 +2,7 @@ package StringManipulations;
 
 import java.util.Scanner;
 
-public class Questions4 {
+public class Question4 {
     public static void main(String[] args) {
         //Soru 6 : Kullanicidan bir String alin,
         //         String’in uzunlugu cift sayi ise tam ortasina :) ekleyin,
