@@ -1,4 +1,4 @@
-package ParametrizedConstructor_ConstructorCall;
+package Parametrizecconstructor_ConstructorCall;
 
 public class ConstructorCall3 {
     String isim = "John";
@@ -16,9 +16,9 @@ public class ConstructorCall3 {
         ConstructorCall3 obj2 = new ConstructorCall3( "Fatih", 35);
         System.out.println("İsim: " +obj1.isim + " Yas: " + obj2.yas); //İsim: Seher Yas: 35
         
-        int dc = 5;
-        dc= 8;
-        dc = 9;
+        int cc = 5;
+        cc= 8;
+        cc = 9;
 
     }
 }

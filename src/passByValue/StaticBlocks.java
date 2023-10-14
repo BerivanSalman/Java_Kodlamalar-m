@@ -1,7 +1,8 @@
 package passByValue;
 
 public class StaticBlocks {
-    StaticBlocks(){
+    StaticBlocks()
+    {
         System.out.println("constructor calisti");
     }
     static {
@@ -15,7 +16,6 @@ public class StaticBlocks {
             once calisirlar
             birden fazla static block varsa,
             kendi iclerinde once ustteki calisir.
-
          */
     }
     {

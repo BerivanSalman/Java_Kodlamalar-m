@@ -8,12 +8,12 @@ public class PassByValue_CokluElement {
         //yolcuların degismesi o arabanın degistigini ispatlar mı ;?Hayır
         //yolcular aynı kalsa bile araba degistiyse o benim arabam mı? hayır
         int[] arr = {1,2,3};
-        System.out.println("arr ilk hali : " + Arrays.toString(arr));
-        elemanlari2Artir(arr);
-        System.out.println("elemanlari artir method call'dan sonra arr : " + Arrays.toString(arr));
-        arrayiDegistir(arr);
-        System.out.println("array'i degistir method call'dan sonra arr : " + Arrays.toString(arr));
-        // yolcular kalıcı degismiştir araba aynıdır
+        System.out.println("arr ilk hali : " + Arrays.toString(arr)); //[1, 2, 3]
+        elemanlari2Artir(arr); //eleman degisikligi kalıcıdır
+        System.out.println("elemanlari artir method call'dan sonra arr : " + Arrays.toString(arr)); //[3, 4, 5]
+        //arr [] = arrayiDegistir(arr); boyle atama yapamazsın kalıcı olması icin
+        System.out.println("array'i degistir method call'dan sonra arr : " + Arrays.toString(arr));//[3, 4, 5]
+        // yolcular kalıcı degismiştir araba aynıdır. Arrayi listi kalıcı degistiremezsin
     }
     public static void elemanlari2Artir(int[] arr){
         // array'in tum elementlerini 2 artirip
@@ -21,7 +21,7 @@ public class PassByValue_CokluElement {
         for (int i = 0; i < arr.length ; i++) {
             arr[i] += 2;
         }
-        System.out.println("eleman artir method'unda degistirilen arr : " + Arrays.toString(arr));
+        System.out.println("eleman artir method'unda degistirilen arr : " + Arrays.toString(arr)); //[3, 4, 5]
     }
     public static void arrayiDegistir(int[] arr){
         // yeni 3 elemanli bir array olusturup
@@ -34,6 +34,6 @@ public class PassByValue_CokluElement {
             yeniArr[i] = rnd.nextInt(100);
         }
         arr = yeniArr;
-        System.out.println("Array'i degistir method'unda arr : " + Arrays.toString(arr));
+        System.out.println("Array'i degistir method'unda arr : " + Arrays.toString(arr));//[67, 92, 33]
     }
     }
