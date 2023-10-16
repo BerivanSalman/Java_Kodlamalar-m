@@ -5,6 +5,8 @@ public class InheritenceNedir {
         /*
 
         tek tek butun ozelliklerle ugrasmayalım. Her şeyiyle bir sınıfın mirascısı olmak istiyorsak inheritence kullanılır
+        Bir class olusturdugumuzda class uyelerinin access modifierlarını secerken ilerde
+        bu classın parent edinilebilecegini dusunerek uygun acc. modi. secmeliyiz
         Sağladıgı en buyuk avantaj reusibility olmasıdır
         -It saves memory space
         -It saves time
@@ -13,9 +15,9 @@ public class InheritenceNedir {
         -It saves the developing and testing efforts.
         Inheritance’da genel ozellikler parent class’larda, spesifik ozellikler ise child class’larda olur.
         - private ve/veya static class uyeleri inherit edilemezler.
-- public class uyelerini tum proje icerisinden, default access modifier’ina sahip class
+        - public class uyelerini tum proje icerisinden, default access modifier’ina sahip class
 uyelerini bulundugu package’dan kullanabiliriz
-- Inheritance icin en uygun access modifier protected’dir.
+        -Inheritance icin en uygun access modifier protected’dir.
 Class olusturulurken ileride parent edinilmesi ihtimali dusunulerek,
 child class’lardan kullanilmasina izin vermek istedigimiz class uyeleri protected olarak isaretlenebilir.
         1-Alt classlar parenttan tüm ozellikleri alırlar

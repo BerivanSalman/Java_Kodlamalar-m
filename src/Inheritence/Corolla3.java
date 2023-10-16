@@ -1,7 +1,7 @@
 package Inheritence;
 
-    public class Corolla extends Toyota {
-        /*Extends Toyata dememizin sebebi hem Car icindeki hem de
+    public class Corolla3 extends Toyota2 {
+        /*Corolla bir Toyota modelidir. Extends Toyata dememizin sebebi hem Car icindeki hem de
         Toyota icindeki ozelliklere ulasabilmek. Cunku Toyota Car icindeki ozelliklere sahiptir
          */
 
@@ -18,7 +18,7 @@ package Inheritence;
         String bagajHacmi = "200 litre";
         //Tekercapı ve bagajHacmini de yeni özellik olarak ekledik
         public static void main(String[] args) {
-            Corolla corolla1 = new Corolla(); //getirmeye en guncel olandan baslar
+            Corolla3 corolla1 = new Corolla3(); //getirmeye en guncel olandan baslar
 
             System.out.println(corolla1.marka); // T Toyota
             System.out.println(corolla1.model); // Co Corolla

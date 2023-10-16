@@ -1,7 +1,10 @@
 package Inheritence;
 
-public class Auris extends Toyota{
+public class Auris extends Toyota2 {
         public static void main(String[] args) {
+            //Auris bir toyota modeli oldugu icin Corollaya degil de Toyotaya extends yaparız
+            //Auris'e hic yeni özellik atamadık. Tek kullandıgı ozellikler Toyota ve Car ın icinde bulunan ozellikler
+            //Bir classdan obje olusturdugumuzda parent ve grand parentten herseye ulasabiliriz
 
         /*
             bir class baska bir class'a extends ile child olursa

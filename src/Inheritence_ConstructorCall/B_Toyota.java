@@ -1,7 +1,12 @@
-package Inheritence;
-    public class Toyota extends Car{
+package Inheritence_ConstructorCall;
+    public class B_Toyota extends A_Car {
 //Car classındaki tum verilere ulasır
  //Var olan bir variableyi kendimize göre ayarlayabiliriz;
+        /*Corolla classı buraya gondermisti ve asagıdaki gibi defaultlar olusturulur
+           Corolla(){  gizli DEFAULT constructerdır. Diyor ki ben calısmaya baslamadan once git PARENT taki constructor ı getir
+            super(); once parent'daki parametresiz cons. calistir
+        }
+         */
         String marka = "Toyota"; //Toyato classında oldugum icin artık markaya deger atatık.
         String uretimYeri = "Japonya ve Turkiye";  //bunu da kendimize uyarladık
 //Yeni özellikler de katabiliriz;
