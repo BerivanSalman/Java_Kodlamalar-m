@@ -9,6 +9,9 @@ public class StringBuilderOzellikleri {
         Stringin kapasitesi icine koyacagımız yazıya gore sekillenir.
         StringBuilder otomatik olarak kemali de ekleyebilecegimiz buyukluge getirir.
         Formulu 2*eski kapasite+2
+        //String classından uretilen Stringler immutabledir, yani degistirilemezler
+        //StringBuilder classından uretilen bjeler immutabledir
+        //StringBuilder ile stringBuffer aynı işi yaparlar ama StringBuffer multi thread yaptıgı icin StringBuilder daha hızlıdır
 
          */
     }
