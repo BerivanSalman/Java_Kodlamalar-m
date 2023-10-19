@@ -10,4 +10,6 @@ public class Overriding {
     //Eger O ve yukarı yonde ok varsa o overriding methoddur.
     // Ornegin iki tane hareket() methodu olunca biri overridingdir
     //Gecersiz kılınana da overridden method denir
+    //Final methodlar modify edilemez
+
 }
