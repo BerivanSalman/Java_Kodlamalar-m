@@ -1,4 +1,4 @@
-package AbstractClasses;
+package Abstract_InterfacesClasses;
 
 public abstract class  F_AbstractParent extends E_AbstractGrandParent {
       /*
@@ -8,7 +8,9 @@ public abstract class  F_AbstractParent extends E_AbstractGrandParent {
 
         Abstract parent - child arasindaki iliski
         normal inheritance kullanan parent - child class'lar gibidir
-        YANI isterse uyarlar, istemezse uyarlamaz
+        YANI isterse uyarlar, istemezse uyarlamaz.
+        Grandparentteki methodların hepsini almak zorunda degildir. İstedigini alır ve istedigi seyi de ekleme yapabilir
+        Kendi abstract methodlar da ekleyebilir
      */
 
     public void method1(){ //method1 burda concrete yapıldı body si var

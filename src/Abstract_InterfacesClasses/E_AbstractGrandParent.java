@@ -1,4 +1,4 @@
-package AbstractClasses;
+package Abstract_InterfacesClasses;
 
 public abstract class E_AbstractGrandParent {
     public abstract void method1();

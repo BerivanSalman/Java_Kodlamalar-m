@@ -1,6 +1,6 @@
-package AbstractClasses;
+package Abstract_InterfacesClasses;
 
-public class B_UysalChild extends A_KuralciParent{
+public class B_UysalChild extends A_KuralciParent {
     public void method1() {
 
     }

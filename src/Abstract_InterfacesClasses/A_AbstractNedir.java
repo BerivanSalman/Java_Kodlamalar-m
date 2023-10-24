@@ -1,6 +1,6 @@
-package AbstractClasses;
+package Abstract_InterfacesClasses;
 
-public class Nedir {
+public class A_AbstractNedir {
     /*
     Abstract class ve interface’ler obje olusturmak icin degil, SADECE child class’larini,
  parent’da belirlenen method’lari kendilerine uyarlamaya mecbur etmek icin kullanilir.
@@ -17,5 +17,9 @@ Mesela Yıldız hastanesindeki Personel bilgileri olan insan kaynaklarını dusu
 Bu parent clası olan İnsan Kaynakları doktor, hemsire gibi childları bunyesinde bulunan  methodları kullanmaya zorlar
 
 Inheritence kullanarak child classları parent classdaki methodları override etmeye mecbur bırakamazsınız
+Kural : Abstract class’lar class olduklari icin constructor’lari vardir ama abstract
+class’lardan obje olusturulamaz.Final ve private method’lar override edilemeyecekleri icin, abstract method’lar final veya private olarak tanimlanamaz.
+NOT: Abstract class’lar obje olusturmak icin degil, concrete child class’larinin sahip olmasi gereken ozellikleri tanimlamak icin olusturulur.
+
      */
 }

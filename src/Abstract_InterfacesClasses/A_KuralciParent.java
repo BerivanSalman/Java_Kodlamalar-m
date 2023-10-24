@@ -1,4 +1,4 @@
-package AbstractClasses;
+package Abstract_InterfacesClasses;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,11 +23,13 @@ public abstract class A_KuralciParent {
         // obj.method1();
         7- A_KuralciParent obj = new D_ChildOfKuralciParent(); child sınıfından constructor olusturabiliriz. Cunku
         Child classında artık tum methodlar concrete yapılır
-        8- abstruct methodu override ettiğimizde I cıkar yan tarafta. Normal methodlarda O çıkar
+        8- abstract methodu override ettiğimizde I(ımplement) cıkar yan tarafta  uyarlamamız kesin gereklidir.
+         Normal methodlarda O çıkar kendimize uyarlayabiliriz
 
      */
 
     public abstract void method1(); //abstract methodların body si olmaz. Bodyleri child classdadır
+    //resmi gazetedeki bir yazı gibi dusun bunu
 
     public abstract void method2();
 

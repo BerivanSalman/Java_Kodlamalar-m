@@ -1,4 +1,4 @@
-package AbstractClasses;
+package Abstract_InterfacesClasses;
 
 import Overriding_PollyMorphism.ZorlamaSevmeyenParent;
 
