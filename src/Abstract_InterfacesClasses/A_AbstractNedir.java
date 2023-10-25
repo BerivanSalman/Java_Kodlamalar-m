@@ -2,6 +2,8 @@ package Abstract_InterfacesClasses;
 
 public class A_AbstractNedir {
     /*
+    Child class olmazsa abstract classın bi anlamı olmaz.
+    Abstract class icinde tanımlanan method Private olarak tanımlanamaz. Tanımlanırsa biz nasıl kullanacapız onu
     Abstract class ve interface’ler obje olusturmak icin degil, SADECE child class’larini,
  parent’da belirlenen method’lari kendilerine uyarlamaya mecbur etmek icin kullanilir.
 Abstraction (soyutluk) bir mecburiyet degil, islerimizi duzenlememize yarayan bir kolayliktir.Beni parent edinmek istiyorsan su su özelliklere uymalısın.
