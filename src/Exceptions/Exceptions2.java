@@ -49,11 +49,56 @@ public class Exceptions2 {
             System.out.println("Tamsayi girmelisiniz");
         } f ye kaydet sorunu ve bunu yazdır
          */
+         /*
+        try {
+            System.out.println("Lutfen iki tamsayi giriniz");
 
+            int sayi1 = scanner.nextInt();
+            int sayi2 = scanner.nextInt();
+            System.out.println("Sayilarin bolumu : " + sayi1/sayi2);
+        }catch (ArithmeticException e){
+            System.out.println("ikinci sayi 0 olamaz");
+        }catch (InputMismatchException f){
+            System.out.println("tamsayi girmelisiniz");
+        }
+
+         */
 
         System.out.println("Lutfen iki tamsayi giriniz");
 
-        int sayi1 = scanner.nextInt();
-        int sayi2 = scanner.nextInt();
+        try {
+            int sayi1 = scanner.nextInt();
+            int sayi2 = scanner.nextInt();
+            //69-70-71. satırları secip yukardaki code dan surround with i secip try/catch i sec
+            System.out.println("Sayilarin bolumu : " + sayi1/sayi2);
+        } catch (Exception e) {
+            System.out.println("yanlis giris yaptiniz");
+            //exeptionun avantajı hata mesayı verilir ve kod calısmaya devam eder. Bir sorun olustu fakat sorunun ustesinden gelindi
+            //exception handle edildi deriz
+            System.out.println(e.toString());
+        }
+
+        /*
+            catch() icinde yazdigimiz e
+            yakalanan exception'in kaydedildigi obje olacaktir
+
+            eger exception ile ilgili daha detayli bilgi almak istersek
+            e objesi kullanilarak
+            hatanin detayi yazdirilabilir
+
+            ornegin : e.printStackTrace(); asagidaki raporu yazdirir
+            java.util.InputMismatchException
+            at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+            at java.base/java.util.Scanner.next(Scanner.java:1594)
+            at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+            at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+            at day28_exceptions.C03_Exceptions.main(C03_Exceptions.java:78)
+
+            e.getMessage() ;  bize null veya / by zero  yazdirdi
+
+            e.toString() ; bize java.lang.ArithmeticException: / by zero yazdirdi
+
+         */
+
     }
 }

@@ -1,0 +1,7 @@
+   Java Candir
+
+    Ahmet hoca ile 36 derste sifirdan zirveye :)
+    Bunu javada okumak icin bu dosyanın dosya yoluna ihtiyacımız var.
+    String DosyaYolu = "Exceptions/text.txt"; Bizin text.txt dosyamız Exceptions classındaymıs
+    Text e gelip sağ tuşa basıp Copy Path/Reference yi seceriz. Path Form Content Root u seceriz.
+    Dosya yolunu kopyalamıs olur onu da String DosyaYoluna yapıstırırız.
