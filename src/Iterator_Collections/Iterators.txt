@@ -1,0 +1,10 @@
+Iterator = yinelemek, birseyi tekrar tekrar yapıyorsak
+*Java’da coklu element iceren Array ve ArrayList gibi yapilarda, index kullanarak element’lere erisim ve update yapmak mumkundur.
+*Ancak Java’da coklu element iceren tum yapilar index kullanmaz.
+*Iterator, index kullanma’dan collection elementleri uzerinde gezinmemizi ve elementler uzerinde degisiklik yapmamizi saglar.
+*Sadece 3 methodu vardır
+*hep ileriye dogru gider
+List Iterator;
+*Iterator sinirli sayida method’a sahiptir.
+*ListIterator interface’i Iterator interface’inin child’i olarak olusturulmustur ancak daha fazla method bulundurmaktadir.
+*ListIterator ile collection elementleri uzerinde ileri veya geri hareket edebilir, elementleri update edebilir veya silme imkani tanir.

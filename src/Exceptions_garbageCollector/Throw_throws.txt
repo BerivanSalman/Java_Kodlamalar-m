@@ -1,0 +1,23 @@
+
+Throw ;
+-fırlat emri. Bizim kontrolumuz altında exception fırlatmak istedigimizde kullanırız
+-Throw keywordunden sonra sadece bi tane exception yazabiliriz
+-throw keyword method icinde kullanılır
+-throw keyword yazıldıktan sonra variable yazılır
+
+Throws;
+-Fırlatır bilgisi. Bir methodda exception olusma riskini deklare etmek icin kullanılır. Bu kodu inceleyenler
+bilsinki bu exceptionu fırlatabilir
+-Bir ya da birden fazla exception deklare edilebilir
+-throws keyword methodun deklsre edildiği satırda kullanılır
+-throws keywordden sonra exception class ismi yazılır
+
+Finally;
+-Bu blok mutlaka calısır
+
+Errors;
+-Onceden ongorulemez, kontrol edilemez ve handle edilemezler
+-Error olustugunda program durdurulur, exception gibi handle edilemediginden data kayıpları olmasının onune gecilemez
+-OutOfMemoryError, StackOverFlowError gibi errorlar vardır
+
+

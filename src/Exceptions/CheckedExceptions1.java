@@ -3,25 +3,24 @@ package Exceptions;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class CheckedExceptions {
-    public CheckedExceptions() throws FileNotFoundException { // exceptionu fırlat ve yoluna devam et
+public class CheckedExceptions1 {
+    public CheckedExceptions1() throws FileNotFoundException { // bu riskin farkındayız biz yolumuzdan eminiz sen calısmana bak exceptionu fırlat ve yoluna devam et
     //Java daha kodları yazarken tehlike kokuları alır ve hata verir
-
         /*
             Checked exceptions daha cok dosya okuma
             veya dosyaya bilgi kaydetme ile ilgilidir
             javada bu islemlere input/output dendiginden
             exception olarak IOException ve child class'lari olusturulmustur
-
          */
 
         String dosyaYolu =" Exceptions/text.txt";
-        //Javanın bu dosyayı bulabilmesi icin FileInputScream olustururuz
+        /*Javanın bu dosyayı bulabilmesi icin FileInputScream olustururuz. Bunu şu sekilde olustururuz; text.txt ye gidip sag
+        click yapınca Copy Path/Referenceyi seceriz. Path From Content Root u seceriz.  Bunu  21.satırdaki new FileInputStream ın
+        icine yapıstırabilirz. Yapıstırınca altını kırmızı cizer ya  sen okuyabilecegim dosya var diyorsun ama ya yoksa diye
+         */
     FileInputStream fis = new FileInputStream(dosyaYolu); //java uyardı ya yoksa der
         //FileInputStreamın uzerine geldiğimizde cıkan seyden more actions secip add exceptions to method signature yi seceriz.Bunu
         // secince 7. satırdaki kod ortaya cıkar
-
-
 
         /*
             Unhandled exception: java.io.FileNotFoundException
@@ -35,8 +34,6 @@ public class CheckedExceptions {
                method deklarasyonunun yanina
                bu riskin farkinda oldugumuzu ve bu method'un
                belirtilen exception'i firlatabilecegini yazariz
-
-
          */
 
     }

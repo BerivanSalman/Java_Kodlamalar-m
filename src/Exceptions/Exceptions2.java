@@ -63,9 +63,7 @@ public class Exceptions2 {
         }
 
          */
-
         System.out.println("Lutfen iki tamsayi giriniz");
-
         try {
             int sayi1 = scanner.nextInt();
             int sayi2 = scanner.nextInt();
@@ -77,7 +75,6 @@ public class Exceptions2 {
             //exception handle edildi deriz
             System.out.println(e.toString());
         }
-
         /*
             catch() icinde yazdigimiz e
             yakalanan exception'in kaydedildigi obje olacaktir
