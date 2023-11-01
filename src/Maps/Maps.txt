@@ -1,0 +1,10 @@
+
+
+Dataları kaybolmasın diye databasede tutarız. En iyi yol map tır.İkili tutmalar icin en iyi yapı Mapstır.
+Her bir eleman icin key ve value olmalıdır.Ali Yılmaz isimli bir sürü kişi vaedır. Biz onları tc numaralarından ayırt edebiliriz. Key ler unique olmalıdır.
+Keylerin unique olma zorunlulugu vardır ama value ların öyle bir zorunlulugu yoktur hatta tek bir deger olmak zorundada degildir
+Ornegin; Key Musteri numarası barındırır ama Value kişinin adını, adresini, telefon numarasını vs hepsini birden barındırabilir.
+Mesela e devlete girince key olarak tc kimlik numarasını giriyoruz ama value olarak cok fazla bilgi vardır icerisinde.
+ Kendimizle ilgili cok fazla bilgiye ulasabiliriz. Bunşarı azaltalım cok fazla oldu karısık oluyor diyor muyuz hayırr
+ Bi menuye tıklayınca o method gidip databaseden bilgileri arar bulur sana getirir. Saniyeler icinde bize getirir.
+ Yapıların karmasık olması kullanıcıyı ilgilendirmez. Kullanici tek bir tıklamayla istediği bilgilere ulasabilir

@@ -1,0 +1,15 @@
+
+Collection un ozelligini veren 5 kelime ;
+-Set(Kume): unique dir. Universite ornegi gibi bir set icinde aynı elemandan iki tane olmaz.
+-Linked (baglı); Halay gibidir. Halaya birini eklemek ve cıkarmak cok kolaydır ama arama yapmak zordur.
+-Queue(Sıra); yemek kuyrugu gibidir. Eklemeler onda, silmeler bastadır.
+-Tree(Dogal sıralı); biz karman corman vversek de tree cok titizdir sıralama yapar.Hash e gore yavastır.
+-Hash (Ozel konumlandırma) :  Elemanları koyarken hash koduna gore koyar. Koyarken cok yavas gibi olsa da bulurken cok hızlı bulur
+Kitaplık duzeni gibi dusun. Herkesin kitaplık duzeni birbiriyle aynı degildir. Berivana sorarsan o sana kitaplık duzenini hemen gosterir
+ Herkesin üniversite numara duzeni de birbiriyle aynı degildir.
+ -Deque(double ended que); İki taraftan da eklenip cıkarılabilir
+
+
+ HashSet: Icındeki elemanlar unique dir ve hızlıdır
+ TreeSet: sıralı yapar ama yavastır. Icındeki elemanlar unique dir.
+LinkList: Ekleme cıkarma kolaydır ama aramada zorlanırsın
