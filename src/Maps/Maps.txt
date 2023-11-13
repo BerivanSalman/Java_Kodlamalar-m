@@ -1,5 +1,6 @@
 
-
+Map e aynı özelliklerde objeler koyabiliriz. Bu objelerin aynı özellikleri tasıması ve aynı sırayla tasıması onemlidir. Ornegin; Ogrenci no, isim, soyisim,
+şube vs diye devam ediyorsa digeri de oyle devam etmelidir
 Dataları kaybolmasın diye databasede tutarız. En iyi yol map tır.İkili tutmalar icin en iyi yapı Mapstır.
 Her bir eleman icin key ve value olmalıdır.Ali Yılmaz isimli bir sürü kişi vaedır. Biz onları tc numaralarından ayırt edebiliriz. Key ler unique olmalıdır.
 Keylerin unique olma zorunlulugu vardır ama value ların öyle bir zorunlulugu yoktur hatta tek bir deger olmak zorundada degildir
@@ -7,4 +8,5 @@ Ornegin; Key Musteri numarası barındırır ama Value kişinin adını, adresin
 Mesela e devlete girince key olarak tc kimlik numarasını giriyoruz ama value olarak cok fazla bilgi vardır icerisinde.
  Kendimizle ilgili cok fazla bilgiye ulasabiliriz. Bunşarı azaltalım cok fazla oldu karısık oluyor diyor muyuz hayırr
  Bi menuye tıklayınca o method gidip databaseden bilgileri arar bulur sana getirir. Saniyeler icinde bize getirir.
- Yapıların karmasık olması kullanıcıyı ilgilendirmez. Kullanici tek bir tıklamayla istediği bilgilere ulasabilir
+ Yapıların karmasık olması kullanıcıyı ilgilendirmez. Kullanici tek bir tıklamayla istediği bilgilere ulasabilir.
+ Valueyi string olarak secmemizin avantajı onların manipulationlarını rahatlıkla kullanabiliriz

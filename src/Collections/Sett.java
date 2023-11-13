@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Sett {
+    //Unique dir. Aynı elemanı tekrar tekrar ekleyemeyiz
     public static void main(String[] args) {
 
         Set<String> harfler = new HashSet<>();
@@ -12,7 +13,7 @@ public class Sett {
 
         harfler.add("B");
         harfler.add("Ali");
-
+//HashCode'nin amacı o objenin memoryde depolanması ve ihtiyac oldugunda ona ulasılmasını kolaylastırır.
         System.out.println(harfler.hashCode()); // 65984
         /*
         Her hash algoritmasi, girdileri farkli sonuclara donusturebilir. Ancak

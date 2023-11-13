@@ -5,7 +5,8 @@ import java.util.LinkedList;
 
 public class Dequee {
     public static void main(String[] args) {
-// bastan da sondan da ekleme yapabiliriz
+        //Deque queue dan daha fazla methoda sahiptir
+       // bastan da sondan da ekleme yapabiliriz
         Deque<String> harfler = new LinkedList<>();
         //new Deque diyemeyiz cunku interface dir
         //child classlar her zaman daha fazla methoda sahiptir
@@ -16,14 +17,14 @@ public class Dequee {
         System.out.println(harfler); // [g, K, A]
 
 //Dequedeki add i de implement etmek zorundayız
-        System.out.println(harfler.add("e")); // true
+        System.out.println(harfler.add("e")); // true sona koyar
         harfler.addLast("K");
         harfler.addFirst("A");
 
         System.out.println(harfler); // [A, g, K, A, e, K]
 
-        System.out.println(harfler.removeLastOccurrence("A")); // true A nın son kullanımını sil
-        System.out.println(harfler); // [A, g, K, e, K]
+        System.out.println(harfler.removeLastOccurrence("A")); // true
+        System.out.println(harfler); // [A, g, K, e, K] A nın son kullanımını siler
 
         System.out.println(harfler.removeLastOccurrence("X")); // false // olmayan birseyi silemez
 
@@ -63,6 +64,7 @@ public class Dequee {
         System.out.println(harfler); // [K, e]
 
         harfler.push("A");
+
         // basa element ekler
         // addFirst()'den farkli olarak
         // eger deque icin bir eleman sinirlamasi varsa

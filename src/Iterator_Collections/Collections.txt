@@ -1,5 +1,9 @@
 
 Collection un ozelligini veren 5 kelime ;
+3 interfaceden olusur; List, Queue ve Set. Asagıdaki child classlar kullanılarak obje olusturulur
+-Iterable-Collection-List
+-Iterable-Collection-Queue
+-Iterable-Collection-Set
 -Set(Kume): unique dir. Universite ornegi gibi bir set icinde aynı elemandan iki tane olmaz.
 -Linked (baglı); Halay gibidir. Halaya birini eklemek ve cıkarmak cok kolaydır ama arama yapmak zordur.
 -Queue(Sıra); yemek kuyrugu gibidir. Eklemeler onda, silmeler bastadır.
@@ -12,4 +16,4 @@ Kitaplık duzeni gibi dusun. Herkesin kitaplık duzeni birbiriyle aynı degildir
 
  HashSet: Icındeki elemanlar unique dir ve hızlıdır
  TreeSet: sıralı yapar ama yavastır. Icındeki elemanlar unique dir.
-LinkList: Ekleme cıkarma kolaydır ama aramada zorlanırsın
+LinkList: Ekleme cıkarma kolaydır ama aramada zorlanırsın. İstedigini istedigin yere ekleyebilirsin cıkarabilirsin

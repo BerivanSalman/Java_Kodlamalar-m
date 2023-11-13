@@ -4,25 +4,30 @@ import java.util.*;
 
 public class LinkedListt {
     public static void main(String[] args) {
-
+//LinkedList; List, Queue ve Deque yi implement eder
         /*
             LinkedList birden fazla Interface'i implement ettigi icin
             implement ettigi Interface'ler data turu olarak secilebilir
             ve hangi Interface'i data turu secersek
             LinkedList o data turunun sahip oldugu ozellikleri tasir
+         */
 
-            Eger data turu ve constructor LinkedList secilirse
+        LinkedList<String> ll1 = new LinkedList<>();
+        //ll1. dedigimizde kullanacak cok fazla method gorunur
+        /*
+         Eger data turu ve constructor LinkedList secilirse
             implement ettigi List, Queue ve Deque interface'lerindeki
             tum ozellikleri tasiyacaktir. En fazla ozellik LinkedList secildigi zaman kullanılır
          */
 
-        LinkedList<String> ll1 = new LinkedList<>();
+        List<Integer> ll2 = new LinkedList<>(); //her yerden eklerim
 
-        List<Integer> ll2 = new LinkedList<>();
+        Queue<String> ll3 = new LinkedList<>(); //bastan cıkıp sondan eklenir
 
-        Queue<String> ll3 = new LinkedList<>();
-
-        Deque<String> ll4 = new LinkedList<>();
+        Deque<String> ll4 = new LinkedList<>(); //bastan ve sondan eklenebilir
+        //Constructorlar aynı:LinkedList ama data turleri farklı: List, Queue, Deque vs. hangi Interface'i data turu secersek
+        // LinkedList o data turunun sahip oldugu ozellikleri tasir. Data turunu ne secersek onun gibi davranır.
+        //LinkList istedigi kadar interfaceyi implement edebilir
         //LinkedList'in kendisinden olusturdugumuzda ; List, Queue, ve deque nin tüm methodlarını implement etmek zorundadır.
         //Deque diye bir class yok onu olustururken mecburen LinkedList kullanmamız gerekli
 
@@ -34,7 +39,7 @@ public class LinkedListt {
         ll2.add(5);
         ll2.add(8);
 
-        System.out.println(ll2); // [4, 5, 8]
+        System.out.println(ll2); // [4, 5, 8] yazdıgımız sırada ekleme yapar
 
         ll2.add(1,9);
         System.out.println(ll2); // [4, 9, 5, 8] list te boyle araya koyabiliyorduk
@@ -78,11 +83,11 @@ public class LinkedListt {
         list.add(10);
 
 
-        System.out.println(list.removeAll(ll2)); // true removeall kesişimleri siler
+        System.out.println(list.removeAll(ll2)); // true removeall kesişimleri siler. Ortak olanları sildim diye true dondurur ortak eleman yoksa false dondurur
         System.out.println("ll2 : " + ll2); // ll2 : [4, 5]
         System.out.println("list : " + list); // list : [6, 9, 10]
 
-        // retainAll() ortak elemanlar disindakileri siler
+        // retainAll() ortak elemanlar disindakileri siler. Kesisimleri getirir
         // removeAll() ise ortak elemanlari siler
 
     }

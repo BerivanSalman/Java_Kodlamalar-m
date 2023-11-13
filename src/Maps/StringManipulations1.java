@@ -14,15 +14,12 @@ public class StringManipulations1 {
         // ogrencinin isim ve soyismini yazdiran bir method olusturun
         isimSoyisimYazdir(bilgi);
     }
-
     public static void subeYazdir (String bilgi){
 
-        String[] bilgilerArr = bilgi.split("-"); // [Ali Can, Yildiz, 10, K, Soz]
-
+        String[] bilgilerArr = bilgi.split("-"); // [Ali Can, Yildiz, 10, K, Soz] //split string i array e cevirir
         System.out.println("Ogrenci sube : " + bilgilerArr[3]);
 
     }
-
     public static void isimSoyisimYazdir(String bilgi){
 
         String[] bilgilerArr = bilgi.split("-"); // [Ali Can, Yildiz, 10, K, Soz]

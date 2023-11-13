@@ -12,7 +12,7 @@ public class ArraySorusuSetleCozum {
 
         int[] arr = {2,4,6,4,1,2,5,7,9,4,5,7,2,6,8,2,1};
 
-        Set<Integer> tekrarsizSet = new TreeSet<>();
+        Set<Integer> tekrarsizSet = new TreeSet<>(); //treeSet yapmamız
 
         // set unique elementlerden olustugu icin
         // array'deki elementleri set'e eklersek

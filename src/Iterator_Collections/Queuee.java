@@ -6,11 +6,12 @@ import java.util.Queue;
 public class Queuee {
     public static void main(String[] args) {
 
-        Queue<String> harfler = new LinkedList<>();
+        Queue<String> harfler = new LinkedList<>(); //new Queue diyemeyiz o bir interfacedir
         harfler.add("y");
         harfler.add("K");
         harfler.add("M");
         harfler.add("s");
+        //araya eleman koyamayız Queue da
 
         System.out.println(harfler); // [y, K, M, s]
 
@@ -25,7 +26,7 @@ public class Queuee {
 
         System.out.println(harfler); // [K, s, M, M]
 
-        System.out.println(harfler.remove("M"));
+        System.out.println(harfler.remove("M")); //bastan baslar aramaya o yüzden bastan buldugu ilk M i siler
 
         System.out.println(harfler); // [K, s, M]
 
