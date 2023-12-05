@@ -24,7 +24,7 @@ public class NestedMapOlusturma2 {
             101={sinif=11, sube=H, soyisim=Can, bolum=MF, isim=Ali},
             102={sinif=10, sube=K, soyisim=Cem, bolum=TM, isim=Veli},
             103={sinif=11, sube=K, soyisim=Cem, bolum=TM, isim=Ali}
-            }
+            } //
          */
     }
 
